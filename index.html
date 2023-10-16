@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Christophe G">
+        <meta name="description" content="PTSI Loritz">
+        <meta name="keywords" content="PTSI Loritz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PTSI Masterclasse</title>
+        <link rel="icon" type="image/x-icon" href="ptsiloritzlogointernet.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo"><a href="#"><img src="ptsiloritzlogointernet.png"></a></div>
+            <div class="logopetit"><a href="#"><img src="ptsiloritzlogointernet.png"></a></div>
+            <div class="topnav" id="myTopnav">
+                <a class="active" href="#accueil">Maths</a>
+                <a href="#apropos">SI</a>
+                <a href="#contact">Physique</a>
+                <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>-->
+                  <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#accueil">Maths</a><br>
+                <a href="#apropos">SI</a><br>
+                <a href="#contact">Physique</a><br>
+              </div>
+        </header>
+
+        <div id="grad1"></div>
+
+        <div id="accueil">
+                <h2>sqrt(-1)/0</h2>
+                <p>- "principe mafia sicilienne"</p>
+                <p>- "le plan c'est de tuer le plus de gens possible"</p>
+                <p>- "trop de chimie ça atteint le cerveau"</p>
+                <p>- "vous avez pas calculé un discriminant j'espère??"</p>
+                <p>- "le truc qui tue"</p>
+                <p>- "c'est la fin, explosion de l'univers"</p>
+                <p>- "on voudrait pas tuer un chaton"</p>
+                <p>- "grosse astuce de malade"</p>
+                <p>- "plus truc, moins truc"</p>
+                <p>- "ça va les maternelles?"</p>
+                <p>- "tu veux bien effacer avec une brosse parce que là c'est le Verdun"</p>
+                <p>- "c'est pas parce que je suis un psychopathe, même si c'est vrai"</p>
+                <p>- "moi je suis près à vous enlever des points jusqu'au 30 juin"</p>
+                <p>- "raisonnement à la vosgienne", un vosgien ("c'est pas drôle"), "oh tient j'entends un vosgien" </p>
+                <p>- "vous êtes des grands maintenant"</p>
+                <p>- "erreur qui vaut moins l'infini"</p>
+                <P>- "une astuce qui sert deux fois, c'est une méthode"</P>
+                <p>- "somme james webb telescopique"</p>
+                <p>- "grosse astuce de malade"</p>
+                <p>- "faut trouver les gens à problème"</p>
+                <p>- "C'est pas comme la SI, tu derives pas et tu regardes pas après si ça fonctionne ou pas"</p>
+                </p>
+        </div>
+        <div class="main" id="apropos">
+            <h2>"Et paf ça fait pas des chocapics, ça fait des plaquettes"</h2>
+            <p>- "ça c'est la méthode PCSI, maintenant on va refléchir"</p>
+            <p>- "vous avez le droit d'être efficase"</p>
+            <p>- "aller calculer, vous voulez être payer comme des ingénieurs, pas comme des bacs pros"</p>
+            <p>- "tu sors pas ton téléphone en cours, donc tu ramènes des croissants à tout le monde"</p>
+            <p>- "tu te la ramènes beaucoup pour quelqu'un qui fait photocopieuse"</p>
+            <p>- "Mr ..., vous avez pas des croissants ?... il fait genre qu'il a rien entendu"</p>
+            <p>- "à votre niveau c'est pas important"</p>
+            <p>- "t'étais ou ce matin?", élève: "je dormais", "j'espère que ta bien dormis?"</p>
+            <p>- "vous pourrez dire à Mr Rogue que la géométrie c'est des maths utiles"</p>
+            <p>- "il ne faut pas apprendre pas coeur, il faut comprendre par coeur"</p>
+        </div>
+        <div class="main" id="contact">
+            <h2>Argent = bonheur</h2>
+            <p>- "je suis pas sûr"</p>
+            <p>- "je ne suis pas un spécialiste"</p>
+            <p>- "Avez-vous des questions?"</p>
+            <p>- "faite pas de blabla, faite un schéma"</p>
+            <p>- "je vous laisse 2 min pour faire l'exercice" (toute la classe a déjà finit l'exercice)</p>
+            <p><b>- "Avez-vous des questions?"</b></p>
+            <P>- "je ne connais pas tout les details"</P>
+            <p>- "si vous me demandez qu'est que cos (θ + π/2), moi je ne sais pas mais je peut le trouver"</p>
+            <p>- "RDV ce soir pour la FAQ"</p>
+
+
+        </div>
+        <div class="main" id="autre">
+            <h2>Citations élèves</h2>
+            <p>- "moi je suis venue en PTSI pour faire des legos"</p>
+            <p>- "Le passé composé permet d'exprimer sur un fait passé"</p>
+            <p>- "mais 6 * 5 ça fait 35"</p>
+            <p>- "Il est où ton travail??", élève: "bah dans ma tête"</p>
+            <p>- "tu fais quoi???", élève: "pour être honnête, je sais pas"</p>
+        </div>
+
+
+
+
+        <!--<script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>-->
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+
+            <div id="grad2"></div>
+            <div class="rectangle">
+            <br>
+            <div class="rectcenter"><p><b>DISCLAIMER: Ce site n'a pas pour objectif de décrédibiliser une personne et sa réputation mais c'est un site conçu pour mettre en avant l'humour et les meilleures citations que nous recueillons au cours de l'année. Bien évidemment, les citations sont sortis hors-contexte! Si une quelconque personne souhaite retirer une citation, envoyez un mail à internat@lori...je voulais dire à mon addresse mail qui n'est pas compliqué à trouver :)</b></p></div>
+            <div class="rectcenter"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Mentions légales</a></div>
+            <br>
+            <div class="rectcenter"><p>PS: PTSI>>>PCSI</p></div>
+
+            </div>
+    </body>
+
+</html>
