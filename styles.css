@@ -30,6 +30,19 @@ html {
     margin: auto;
     background-color: white;
 }
+
+#francais {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+}
+
+#anglais {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+
+}
 #autre {
     width: 90%;
     margin: auto;
