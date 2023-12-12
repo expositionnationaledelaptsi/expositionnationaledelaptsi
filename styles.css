@@ -101,7 +101,7 @@ header {
     display: block;
 }
 
-mainimage {
+.mainimage {
     display:flex;
     width:80%;
 }
