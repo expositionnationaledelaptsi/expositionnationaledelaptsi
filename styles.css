@@ -101,6 +101,12 @@ header {
     display: block;
 }
 
+mainimage {
+    display:flex;
+    width:80%;
+}
+
+
 .logopetit {
     display: none;
     height: 150px;
